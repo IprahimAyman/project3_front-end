@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    height: 60px;
+}
+nav a{
+    font-size: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+header{
+    height: 590px;
+    background: linear-gradient( to right , #0e0d0d59 , #16165f21), url(img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h2{
+   font-size: 30px;
+   color:#fff;
+   letter-spacing: 3px;
+   word-spacing: -10px;
+   margin-bottom: 10px;
+}
+header p{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+header button{
+    padding: 8px 30px;
+    border: none;
+    margin-right: 20px;
+    font-size: 18px;
+    border-radius: 2px;
+    background-color: #6f0f41;
+    color: #fff;
+    border-radius: 50px;
+}
+.color{
+   background-color: green;
+}
+.children h2{
+    text-align: center;
+    font-size: 25px;
+    word-spacing: -10px;
+    letter-spacing: 3px;
+}
+.children hr{
+    width: 300px;
+    margin: auto;
+    height: 3px;
+    background-color: red;
+    margin-bottom: 45px;
+    margin-top: 14px;
+}
+.children-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.children-container h2{
+    width: 45%;
+    line-height: 1.7;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.children-container img{
+    width: 45%;
+
+}
+.children-container h2::first-letter{
+    color: red;
+    font-size: 40px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cccccc21;
+    padding-top: 30px;
+}
+.about-container {
+    border: 2px solid #cccccc73;
+    padding: 20px;
+    background-color: #fff;
+    width: 40%;
+    margin-bottom: 30px;
+}
+.about-container img {
+    width: 450px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+.about h2{
+    font-size: 18px;
+}
+.contact-us{
+    background-image: url(img/contact\ us.gif);
+    background-size: cover;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+.contact-us h2, .Message h2{
+   font-size: 30px;
+   margin-bottom: 30px;
+   letter-spacing: 3px;
+   color: white;
+}
+.contact-us input, textarea,.Message input{
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    text-indent: 10px;
+    border-radius:3px;
+    border: none;
+}
+.contact-us button, .Message button {
+    font-size: 30px;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+.Message{
+    background-image: url(img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
