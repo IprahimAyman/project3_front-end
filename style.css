@@ -16,6 +16,7 @@ nav a{
     margin-left: 20px;
     letter-spacing: 1px;
     color: #fff;
+    text-decoration: none;
 }
 header{
     height: 590px;
